@@ -1,0 +1,42 @@
+@import './reset.scss';
+@import 'assets/fonts/style.scss';
+@import './variables.scss';
+
+.App {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Hind', sans-serif;
+  min-width: 100vh;
+  min-height: 100vh;
+  padding: 25px 0;
+}
+
+a, a:visited {
+	text-decoration: none;
+	position: relative;
+	color: var(--color-primary);
+
+	&:after {
+		content: '';
+		height: 3px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		background: var(--color-primary);
+		transition: 0.2s;
+	}
+
+	&:hover:after {
+		width: 100%;
+	}
+
+	&.block {
+		display: block;
+		padding: 0.5em;
+
+		&:hover {
+			background: var(--color-background);
+		}
+	}
+}
