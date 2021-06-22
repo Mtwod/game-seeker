@@ -1,10 +1,21 @@
+import Home from 'pages/Home';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import 'style.scss';
 
 const App = () => (
-  <div className="App">
-    <h1>Hello World</h1>
-    <p>This is a starter for React app, place your components here!</p>
-  </div>
+  <Router>
+    <div className="App dark">
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </div>
+  </Router>
 );
 
 export default App;
