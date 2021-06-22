@@ -1,5 +1,15 @@
+@import 'scss/screenWidthBreakpoints';
+
 .GameCardList {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: auto;
+
+  @include landscape-tablet {
+    grid-template-columns: auto auto;
+  }
+
+  @include desktop {
+    grid-template-columns: auto auto auto;
+  }
 }

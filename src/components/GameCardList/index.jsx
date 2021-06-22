@@ -9,6 +9,7 @@ const GameCardList = () => (
     <GameCard />
     <GameCard />
     <GameCard />
+    <GameCard />
   </div>
 );
 

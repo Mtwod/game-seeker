@@ -1,0 +1,15 @@
+$landscape-tablet-width: 600px;
+$desktop-width: 992px;
+
+
+@mixin landscape-tablet {
+  @media (min-width: $landscape-tablet-width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}

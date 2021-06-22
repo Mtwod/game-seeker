@@ -1,6 +1,6 @@
 @import './scss/reset.scss';
 @import './scss/themeColors.scss';
-@import './scss/desktop.scss';
+@import './scss/screenWidthBreakpoints.scss';
 @import './scss/transition.scss';
 
 .App {
@@ -13,8 +13,8 @@
   min-height: 100vh;
   @include transition-color;
 
-  @include desktop{
-    padding: 2vh 20vw 0;
+  @include landscape-tablet {
+    padding: 2vh 0;
   }
 }
 

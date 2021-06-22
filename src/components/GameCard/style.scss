@@ -1,18 +1,21 @@
-@import '../../scss/desktop.scss';
-@import '../../scss/transition.scss';
+@import 'scss/screenWidthBreakpoints.scss';
+@import 'scss/transition.scss';
 
 $box-radius: 10px;
 $box-padding: 10px;
 
 .GameCard {
-  margin: 10px;
   padding-bottom: 10px;
   width: 90vw;
   background-color: var(--game-card-background-color);
   border-radius: $box-radius;
 
+  @include landscape-tablet {
+    width: 37vw;
+  }
+
   @include desktop {
-    width: 18vw;
+    width: 25vw;
   }
 
   &__image {
