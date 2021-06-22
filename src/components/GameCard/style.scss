@@ -1,0 +1,49 @@
+@import '../../scss/desktop.scss';
+@import '../../scss/transition.scss';
+
+$box-radius: 10px;
+$box-padding: 10px;
+
+.GameCard {
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 90vw;
+  background-color: var(--game-card-background-color);
+  border-radius: $box-radius;
+
+  @include desktop {
+    width: 18vw;
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: $box-radius $box-radius 0 0;
+  }
+
+  &__title {
+    padding: 0 $box-radius;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  &__platform {
+    padding: 0 $box-radius;
+  }
+
+  &__detailLink {
+    display: block;
+    max-width: 150px;
+    border: 2px solid var(--background-color-secondary);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px auto 0;
+    text-align: center;
+    @include transition-color;
+
+
+    &:hover {
+      background-color: var(--background-color-secondary);
+      color: var(--background-color);
+    }
+  }
+}

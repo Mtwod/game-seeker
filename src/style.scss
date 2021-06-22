@@ -1,13 +1,21 @@
-@import './reset.scss';
-@import './variables.scss';
+@import './scss/reset.scss';
+@import './scss/themeColors.scss';
+@import './scss/desktop.scss';
+@import './scss/transition.scss';
 
 .App {
+  display: flex;
+  justify-content: center;
   padding: 0 25px 50px;
   font-family: 'Quicksand', sans-serif;
   background-color: var(--background-color);
   color: var(--color-text);
   min-height: 100vh;
-  @include transition();
+  @include transition-color;
+
+  @include desktop{
+    padding: 2vh 20vw 0;
+  }
 }
 
 h3 {
