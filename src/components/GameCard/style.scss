@@ -36,7 +36,8 @@ $box-padding: 10px;
   &__detailLink {
     display: block;
     max-width: 150px;
-    border: 2px solid var(--background-color-secondary);
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
     border-radius: 5px;
     padding: 5px 10px;
     margin: 10px auto 0;
@@ -45,7 +46,7 @@ $box-padding: 10px;
 
 
     &:hover {
-      background-color: var(--background-color-secondary);
+      background-color: var(--color-secondary);
       color: var(--background-color);
     }
   }

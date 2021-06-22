@@ -1,17 +1,17 @@
 :root {
   // light colors
-  --light-background: #FFFFFF;
-  --light-color-text: #000000;
-  --light-color-primary: #660000;
-  --light-color-secondary: #79d3df;
-  --light-card-background-color: #270f3510;
+  --light-background: #ecf3f7;
+  --light-color-text: #270f35;
+  --light-color-primary: #9c0000;
+  --light-color-secondary: #03616d;
+  --light-game-card-background-color: #fff;
 
   // dark colors
   --dark-background: #270f35;
-  --dark-color-text: #FFFFFF;
+  --dark-color-text: #ecf3f7;
   --dark-color-primary: #F55;
-  --dark-color-secondary: #10c5dd;
-  --dark-card-background-color: #FFFFFF25;
+  --dark-color-secondary: #8dd7e0;
+  --dark-game-card-background-color: #FFFFFF25;
 }
 
 .light {
@@ -20,7 +20,7 @@
   --color-text: var(--light-color-text);
   --color-primary: var(--light-color-primary);
   --color-secondary: var(--light-color-secondary);
-  --game-card-background-color:var(--light-card-background-color);
+  --game-card-background-color:var(--light-game-card-background-color);
   --game-card-color-text: var(--dark-color-text);
 }
 
@@ -30,6 +30,6 @@
   --color-text: var(--dark-color-text);
   --color-primary: var(--dark-color-primary);
   --color-secondary: var(--dark-color-secondary);
-  --game-card-background-color: var(--dark-card-background-color);
+  --game-card-background-color: var(--dark-game-card-background-color);
   --game-card-color-text: var(--light-color-text);
 }
