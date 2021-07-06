@@ -2,7 +2,7 @@ import './style.scss';
 import GameCard from 'components/GameCard';
 
 const GameCardList = () => (
-  <div className="GameCardList">
+  <ul className="GameCardList">
     <GameCard />
     <GameCard />
     <GameCard />
@@ -10,7 +10,7 @@ const GameCardList = () => (
     <GameCard />
     <GameCard />
     <GameCard />
-  </div>
+  </ul>
 );
 
 export default GameCardList;
