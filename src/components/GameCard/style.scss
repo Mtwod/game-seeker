@@ -21,7 +21,7 @@ $box-padding: 10px;
   }
 
   &:hover {
-    box-shadow: 5px 5px 3px var(--dark-background);
+    box-shadow: 2px 2px 5px 3px var(--game-card-box-shadow-color);
   }
 
   &__image {
@@ -37,23 +37,5 @@ $box-padding: 10px;
 
   &__platform {
     padding: 0 $box-radius;
-  }
-
-  &__detailLink {
-    display: block;
-    max-width: 150px;
-    border: 2px solid var(--color-secondary);
-    color: var(--color-secondary);
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 10px auto 0;
-    text-align: center;
-    @include transition-color;
-
-
-    &:hover {
-      background-color: var(--color-secondary);
-      color: var(--background-color);
-    }
   }
 }
