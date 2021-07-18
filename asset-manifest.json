@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/game-seeker/static/css/main.fc43883f.chunk.css",
-    "main.js": "/game-seeker/static/js/main.64ae7276.chunk.js",
-    "main.js.map": "/game-seeker/static/js/main.64ae7276.chunk.js.map",
+    "main.css": "/game-seeker/static/css/main.411dbd4e.chunk.css",
+    "main.js": "/game-seeker/static/js/main.6e787c95.chunk.js",
+    "main.js.map": "/game-seeker/static/js/main.6e787c95.chunk.js.map",
     "runtime-main.js": "/game-seeker/static/js/runtime-main.995387bb.js",
     "runtime-main.js.map": "/game-seeker/static/js/runtime-main.995387bb.js.map",
-    "static/js/2.cd46ea44.chunk.js": "/game-seeker/static/js/2.cd46ea44.chunk.js",
-    "static/js/2.cd46ea44.chunk.js.map": "/game-seeker/static/js/2.cd46ea44.chunk.js.map",
+    "static/js/2.2a1309d8.chunk.js": "/game-seeker/static/js/2.2a1309d8.chunk.js",
+    "static/js/2.2a1309d8.chunk.js.map": "/game-seeker/static/js/2.2a1309d8.chunk.js.map",
     "index.html": "/game-seeker/index.html",
-    "static/css/main.fc43883f.chunk.css.map": "/game-seeker/static/css/main.fc43883f.chunk.css.map",
-    "static/js/2.cd46ea44.chunk.js.LICENSE.txt": "/game-seeker/static/js/2.cd46ea44.chunk.js.LICENSE.txt"
+    "static/css/main.411dbd4e.chunk.css.map": "/game-seeker/static/css/main.411dbd4e.chunk.css.map",
+    "static/js/2.2a1309d8.chunk.js.LICENSE.txt": "/game-seeker/static/js/2.2a1309d8.chunk.js.LICENSE.txt",
+    "static/media/Cyberpunk2077_bgimg.33fb2448.jpg": "/game-seeker/static/media/Cyberpunk2077_bgimg.33fb2448.jpg",
+    "static/media/moon-logo.e117be6b.png": "/game-seeker/static/media/moon-logo.e117be6b.png",
+    "static/media/sun-logo.b9434b94.png": "/game-seeker/static/media/sun-logo.b9434b94.png"
   },
   "entrypoints": [
     "static/js/runtime-main.995387bb.js",
-    "static/js/2.cd46ea44.chunk.js",
-    "static/css/main.fc43883f.chunk.css",
-    "static/js/main.64ae7276.chunk.js"
+    "static/js/2.2a1309d8.chunk.js",
+    "static/css/main.411dbd4e.chunk.css",
+    "static/js/main.6e787c95.chunk.js"
   ]
 }
