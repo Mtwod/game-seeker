@@ -6,6 +6,8 @@ This is a personal project similar to a project I did in pair during my formatio
 
 This app (will) allow the user to search a game by its name and platform at least, using the RAWG API.
 
+[Link here to see the work in progress](https://mtwod.github.io/game-seeker/)
+
 Hope you enjoy it!
 
 ### Maxime WONG
