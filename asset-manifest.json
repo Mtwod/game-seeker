@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/game-seeker/static/css/main.fc43883f.chunk.css",
+    "main.js": "/game-seeker/static/js/main.64ae7276.chunk.js",
+    "main.js.map": "/game-seeker/static/js/main.64ae7276.chunk.js.map",
+    "runtime-main.js": "/game-seeker/static/js/runtime-main.995387bb.js",
+    "runtime-main.js.map": "/game-seeker/static/js/runtime-main.995387bb.js.map",
+    "static/js/2.cd46ea44.chunk.js": "/game-seeker/static/js/2.cd46ea44.chunk.js",
+    "static/js/2.cd46ea44.chunk.js.map": "/game-seeker/static/js/2.cd46ea44.chunk.js.map",
+    "index.html": "/game-seeker/index.html",
+    "static/css/main.fc43883f.chunk.css.map": "/game-seeker/static/css/main.fc43883f.chunk.css.map",
+    "static/js/2.cd46ea44.chunk.js.LICENSE.txt": "/game-seeker/static/js/2.cd46ea44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.995387bb.js",
+    "static/js/2.cd46ea44.chunk.js",
+    "static/css/main.fc43883f.chunk.css",
+    "static/js/main.64ae7276.chunk.js"
+  ]
+}
