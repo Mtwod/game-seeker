@@ -1,0 +1,6 @@
+$transition-duration: 0.3s;
+
+@mixin transition-color {
+  transition-property: background-color, color;
+  transition-duration: $transition-duration;
+}

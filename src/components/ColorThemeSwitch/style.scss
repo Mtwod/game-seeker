@@ -1,0 +1,17 @@
+@import 'scss/transition.scss';
+@import 'scss/themeColors.scss';
+
+.ColorThemeSwitch {
+  height: 60px;
+  width: 60px;
+  margin-right: 50px;
+  border-radius: 50%;
+  background-image: radial-gradient(var(--background-color-reverse), var(--background-color));
+  color: var(--background-color);
+  cursor: pointer;
+
+  &__logo {
+    max-height: 80%;
+    max-width: 80%;
+  }
+}

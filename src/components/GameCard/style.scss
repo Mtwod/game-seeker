@@ -1,0 +1,41 @@
+@import 'scss/screenWidthBreakpoints.scss';
+@import 'scss/transition.scss';
+@import 'scss/themeColors.scss';
+
+$box-radius: 10px;
+$box-padding: 10px;
+
+.GameCard {
+  padding-bottom: 10px;
+  width: 90vw;
+  background-color: var(--game-card-background-color);
+  border-radius: $box-radius;
+  transition: box-shadow $transition-duration;
+
+  @include landscape-tablet {
+    width: 37vw;
+  }
+
+  @include desktop {
+    width: 25vw;
+  }
+
+  &:hover {
+    box-shadow: 2px 2px 5px 3px var(--game-card-box-shadow-color);
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: $box-radius $box-radius 0 0;
+  }
+
+  &__title {
+    padding: 0 $box-radius;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  &__platform {
+    padding: 0 $box-radius;
+  }
+}
