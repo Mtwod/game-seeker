@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/game-seeker/static/css/main.411dbd4e.chunk.css",
-    "main.js": "/game-seeker/static/js/main.6e787c95.chunk.js",
-    "main.js.map": "/game-seeker/static/js/main.6e787c95.chunk.js.map",
+    "main.js": "/game-seeker/static/js/main.07ccde6f.chunk.js",
+    "main.js.map": "/game-seeker/static/js/main.07ccde6f.chunk.js.map",
     "runtime-main.js": "/game-seeker/static/js/runtime-main.995387bb.js",
     "runtime-main.js.map": "/game-seeker/static/js/runtime-main.995387bb.js.map",
     "static/js/2.2a1309d8.chunk.js": "/game-seeker/static/js/2.2a1309d8.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.995387bb.js",
     "static/js/2.2a1309d8.chunk.js",
     "static/css/main.411dbd4e.chunk.css",
-    "static/js/main.6e787c95.chunk.js"
+    "static/js/main.07ccde6f.chunk.js"
   ]
 }
