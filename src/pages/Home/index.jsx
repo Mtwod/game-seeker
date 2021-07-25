@@ -1,12 +1,12 @@
 import ColorThemeSwitch from 'components/ColorThemeSwitch';
 import GameCardList from 'components/GameCardList';
-import Title from 'components/Title';
+import Header from 'components/Header';
 import './style.scss';
 
 const Home = () => (
   <div className="Home">
     <header className="Home__header">
-      <Title
+      <Header
         title="Game Seeker"
         subtitle="Bienvenue sur mon site de recherche de jeux vidéos."
       />
