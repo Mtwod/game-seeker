@@ -13,7 +13,7 @@ const App = () => {
   const displayedColorTheme = useRecoilValue(colorTheme);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/game-seeker">
       <div className={`App ${displayedColorTheme}`}>
         <Switch>
           <Route path="/">
