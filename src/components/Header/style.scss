@@ -1,0 +1,10 @@
+.Header {
+  color: var(--color-primary);
+  margin-bottom: 30px;
+
+  &__title {
+    &__link {
+      color: var(--color-primary);
+    }
+  }
+}
