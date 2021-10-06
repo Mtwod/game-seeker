@@ -1,13 +1,13 @@
-import exampleGameImage from 'Cyberpunk2077_bgimg.jpg';
+// import exampleGameImage from 'Cyberpunk2077_bgimg.jpg';
 import { Link } from 'react-router-dom';
 import './style.scss';
 
-const GameCard = () => (
+const GameCard = ({ game }) => (
   <li className="GameCard">
     <Link to="/">
-      <img className="GameCard__image" src={exampleGameImage} alt="example game" />
-      <p className="GameCard__title">Cyberpunk 2077</p>
-      <p className="GameCard__platform">Playstation?</p>
+      <img className="GameCard__image" src={game.background_image} alt="game" />
+      <p className="GameCard__title">{game.name}</p>
+      <p className="GameCard__platform">{game.parent_platforms[0].platform.name}</p>
     </Link>
   </li>
 );

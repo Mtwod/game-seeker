@@ -10,7 +10,7 @@ $box-padding: 10px;
   width: 90vw;
   background-color: var(--game-card-background-color);
   border-radius: $box-radius;
-  transition: box-shadow $transition-duration;
+  transition: transform $transition-duration;
 
   @include landscape-tablet {
     width: 37vw;
@@ -21,7 +21,7 @@ $box-padding: 10px;
   }
 
   &:hover {
-    box-shadow: 2px 2px 5px 3px var(--game-card-box-shadow-color);
+    transform: scale(1.08);
   }
 
   &__image {
