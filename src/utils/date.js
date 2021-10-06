@@ -1,15 +1,16 @@
 import dayjs from 'dayjs';
 
 const dateFormat = 'YYYY-MM-DD';
+const todayDate = dayjs().format(dateFormat);
 
-const datePick = (operator, number, dayMonthYear) => {
-  if (operator === 'add') {
-    return dayjs().add(number, dayMonthYear).format(dateFormat);
-  }
-  if (operator === 'substract') {
-    return dayjs().substract(number, dayMonthYear).format(dateFormat);
-  }
-  throw new Error('Invalid parameter');
+const date = {
+  today: todayDate,
+  add: (number, dayMonthOrYear = 'day', startDate = todayDate) => dayjs(startDate)
+    .add(number, dayMonthOrYear)
+    .format(dateFormat),
+  substract: (number, dayMonthOrYear, startDate) => dayjs(startDate)
+    .substract(number, dayMonthOrYear)
+    .format(dateFormat),
 };
 
-export default datePick;
+export default date;
