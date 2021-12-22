@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/game-seeker/static/css/main.db33a4e7.chunk.css",
-    "main.js": "/game-seeker/static/js/main.afddced9.chunk.js",
-    "main.js.map": "/game-seeker/static/js/main.afddced9.chunk.js.map",
+    "main.css": "/game-seeker/static/css/main.a71e3819.chunk.css",
+    "main.js": "/game-seeker/static/js/main.7a697cdb.chunk.js",
+    "main.js.map": "/game-seeker/static/js/main.7a697cdb.chunk.js.map",
     "runtime-main.js": "/game-seeker/static/js/runtime-main.995387bb.js",
     "runtime-main.js.map": "/game-seeker/static/js/runtime-main.995387bb.js.map",
     "static/js/2.c1a97673.chunk.js": "/game-seeker/static/js/2.c1a97673.chunk.js",
     "static/js/2.c1a97673.chunk.js.map": "/game-seeker/static/js/2.c1a97673.chunk.js.map",
     "index.html": "/game-seeker/index.html",
-    "static/css/main.db33a4e7.chunk.css.map": "/game-seeker/static/css/main.db33a4e7.chunk.css.map",
+    "static/css/main.a71e3819.chunk.css.map": "/game-seeker/static/css/main.a71e3819.chunk.css.map",
     "static/js/2.c1a97673.chunk.js.LICENSE.txt": "/game-seeker/static/js/2.c1a97673.chunk.js.LICENSE.txt",
     "static/media/moon-logo.e117be6b.png": "/game-seeker/static/media/moon-logo.e117be6b.png",
     "static/media/sun-logo.b9434b94.png": "/game-seeker/static/media/sun-logo.b9434b94.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.995387bb.js",
     "static/js/2.c1a97673.chunk.js",
-    "static/css/main.db33a4e7.chunk.css",
-    "static/js/main.afddced9.chunk.js"
+    "static/css/main.a71e3819.chunk.css",
+    "static/js/main.7a697cdb.chunk.js"
   ]
 }
