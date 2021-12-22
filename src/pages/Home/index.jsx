@@ -8,7 +8,7 @@ const Home = () => (
     <header className="Home__header">
       <Header
         title="Game Seeker"
-        subtitle="Bienvenue sur mon site de recherche de jeux vidéos."
+        subtitle="Welcome on my video game website!"
       />
       <ColorThemeSwitch />
     </header>

@@ -13,7 +13,7 @@ const GameCardList = () => {
 
   return (
     games.length === 0 ? (
-      <p>Il n&apos;y a aucun jeu qui a été trouvé !</p>
+      <p>No game was found!</p>
     ) : (
       <ul className="GameCardList">
         {games.map((game) => (
