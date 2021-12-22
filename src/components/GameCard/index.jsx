@@ -12,7 +12,9 @@ const GameCard = ({ game }) => (
         {`\nGenres : ${extractListFromArray(game.genres, 'name')}`}
       </p>
       <p className="GameCard__title">{game.name}</p>
-      <p className="GameCard__platform">{game.parent_platforms[0].platform.name}</p>
+      <p className="GameCard__platform">
+        {extractListFromArray(game.parent_platforms.map((platform) => platform.platform), 'name')}
+      </p>
     </Link>
   </li>
 );
